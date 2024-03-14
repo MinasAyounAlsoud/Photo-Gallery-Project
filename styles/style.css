@@ -1,0 +1,178 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+* {
+  margin: 0;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+a {
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  color: black;
+}
+.links a:hover {
+  border-bottom: 3px solid #f5c4d8;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  background-color: white;
+}
+.image {
+  margin-top: 30px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 3%;
+  margin-right: 3%;
+}
+.navIcons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+i:hover {
+  background-color: #f5c4d8;
+}
+
+i {
+  background-color: #eeefee;
+  border-radius: 5px;
+  font-size: larger;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  padding-top: 8%;
+}
+
+.photoBox1 {
+  position: relative;
+  grid-column-start: 1;
+  grid-row: 1;
+}
+
+.photoBox1 img {
+  display: block;
+}
+
+.photoBox1 p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: none;
+}
+
+.photoBox1:hover p {
+  display: block;
+}
+
+.photoBox1:hover img {
+  opacity: 0.3;
+}
+
+.photoBox2 {
+  position: relative;
+  grid-column-start: 2;
+  grid-row: 1;
+}
+
+.photoBox2 img {
+  display: block;
+}
+
+.photoBox2 p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: none;
+}
+
+.photoBox2:hover p {
+  display: block;
+}
+
+.photoBox2:hover img {
+  opacity: 0.3;
+}
+
+.photoBox3 {
+  position: relative;
+  grid-column-start: 1;
+  grid-row: 2;
+}
+
+.photoBox3 img {
+  display: block;
+}
+
+.photoBox3 p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: none;
+}
+
+.photoBox3:hover p {
+  display: block;
+}
+
+.photoBox3:hover img {
+  opacity: 0.3;
+}
+
+.photoBox4 {
+  position: relative;
+  grid-column-start: 2;
+  grid-row: 2;
+}
+
+.photoBox4 img {
+  display: block;
+}
+
+.photoBox4 p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: none;
+}
+
+.photoBox4:hover p {
+  display: block;
+}
+
+.photoBox4:hover img {
+  opacity: 0.3;
+}
+.photo {
+  margin-top: 20px;
+  margin-left: 250px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+
+.text,
+h2 {
+  margin-top: 70px;
+  margin-left: 250px;
+  font-family: Truculenta;
+}
+.text p {
+  margin-top: 10px;
+  margin-left: 250px;
+}

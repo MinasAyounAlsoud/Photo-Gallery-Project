@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KleinKind</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      .logo {
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+      }
+      .container {
+        width: 100%;
+        position: relative;
+        overflow: hidden;
+      }
+
+      .box {
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        overflow: hidden;
+        justify-content: space-around;
+        padding-top: 20px;
+      }
+
+      .box:nth-child(1) {
+        transition: transform 0.3s ease-in-out;
+      }
+      .box:nth-child(1) :hover {
+        transform: translateX(20px) rotate(20deg) scale(1.1);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="logo"><img src="./imges/logo.jpg" alt="Logo" /></div>
+    <div class="container">
+      <div class="box">
+        <a target="_blank" href="./imges/kleinKind1.jpg">
+          <img
+            src="./imges/kleinKind1.jpg"
+            alt="image"
+            width="200px"
+            height="200px"
+          />
+        </a>
+
+        <a target="_blank" href="./imges/kleinKind2.jpg">
+          <img
+            src="./imges/kleinKind2.jpg"
+            alt="image"
+            width="200px"
+            height="200px"
+          />
+        </a>
+
+        <a target="_blank" href="./imges/kleinkind3.jpg">
+          <img
+            src="./imges/kleinkind3.jpg"
+            alt="image"
+            width="200px"
+            height="200px"
+          />
+        </a>
+
+        <a target="_blank" href="./imges/kleinkind4.jpg">
+          <img
+            src="./imges/kleinkind4.jpg"
+            alt="image"
+            width="200px"
+            height="200px"
+          />
+        </a>
+      </div>
+    </div>
+    <div class="container">
+      <div class="box">
+        <a target="_blank" href="./imges/kleinKind5.jpg">
+          <img
+            src="./imges/kleinKind5.jpg"
+            alt="image"
+            width="200px"
+            height="200px"
+          />
+        </a>
+
+        <a target="_blank" href="./imges/kleinKind6.jpg">
+          <img
+            src="./imges/kleinKind6.jpg"
+            alt="image"
+            width="200px"
+            height="200px"
+          />
+        </a>
+
+        <a target="_blank" href="./imges/kleinKind7.jpg">
+          <img
+            src="./imges/kleinKind7.jpg"
+            alt="image"
+            width="200px"
+            height="200px"
+          />
+        </a>
+
+        <a target="_blank" href="./imges/kleinKind8.jpg">
+          <img
+            src="./imges/kleinKind8.jpg"
+            alt="image"
+            width="200px"
+            height="200px"
+          />
+        </a>
+      </div>
+    </div>
+  </body>
+</html>
